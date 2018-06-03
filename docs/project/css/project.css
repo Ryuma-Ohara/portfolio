@@ -1,0 +1,55 @@
+@charset "UTF-8";
+body {
+  background-color: #1c1c1c;
+}
+
+.ttl_project {
+  color: #ddd;
+  font-size: 24px;
+  margin-bottom: 100px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.sec_work {
+  margin-bottom: 200px;
+}
+  .sec_work a:hover {
+    opacity: .7;
+  }
+.ttl_work {
+  margin-bottom: 30px;
+}
+  .ttl_work a {
+    color: #ddd;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+.ttl_name {
+  color: #ddd;
+  font-size: 30px;
+  margin: 20px 0 50px;
+}
+.txt_project {
+  color: #ddd;
+  font-size: 20px;
+}
+@media (max-width: 1199px) {
+.container {
+  width: 100%;
+}
+.sec_work  {
+  padding: 0 15px;
+}
+  .sec_work img {
+    width: 100%;
+  }
+.ttl_project {
+  padding-left: 15px;
+}
+.ttl_name {
+  padding-left: 17px;
+}
+}
