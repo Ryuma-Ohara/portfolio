@@ -47,9 +47,15 @@ body {
     width: 100%;
   }
 .ttl_project {
+  font-size: 18px;
   padding-left: 15px;
 }
+.txt_project {
+  font-size: 16px;
+}
 .ttl_name {
+  font-size: 22px;
   padding-left: 17px;
 }
+
 }

@@ -553,3 +553,8 @@ body {
   margin: 30px auto 0;
 }
 }
+@media (max-width: 1023px) {
+.only_pc {
+  display: none;
+}
+}
