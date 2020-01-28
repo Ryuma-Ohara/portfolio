@@ -1,18 +1,18 @@
-loading
-$(function() {
-	var h = $(window).height();
+// loading
+// $(function() {
+// 	var h = $(window).height();
 
-	$('.wrapper').css('display','none');
-	$('.loader-bg ,.loader').height(h).css('display','block');
+// 	$('.wrapper').css('display','none');
+// 	$('.loader-bg ,.loader').height(h).css('display','block');
 
-	setTimeout('stopload()',1000);
-});
+// 	setTimeout('stopload()',1000);
+// });
 
-function stopload(){
-	$('.loader-bg').delay(900).fadeOut(800);
-	$('.loader').delay(600).fadeOut(300);
-	$('.wrapper').css('display','block');
-}
+// function stopload(){
+// 	$('.loader-bg').delay(900).fadeOut(800);
+// 	$('.loader').delay(600).fadeOut(300);
+// 	$('.wrapper').css('display','block');
+// }
 
 
 // Slider
